@@ -4,12 +4,11 @@ import Header from "./common/Header";
 import Main from "./common/Main";
 const TheLayout = () => {
   return (
-    <div>
+    <div className="">
       <div>
         <Header></Header>
       </div>
       <main>
-      
         <Main />
       </main>
       <div>
